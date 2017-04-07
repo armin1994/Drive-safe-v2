@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var validator = require('node-mongoose-validator');
-mongoose.connect('mongodb://localhost/armindb');
+mongoose.connect('mongodb://root:root@ds117829.mlab.com:17829/armindb');
 var userSchema = new Schema({
     user_name: {type: String, unique: true},
     email: {type: String, unique: true, validate: validator.$isEmail()},
