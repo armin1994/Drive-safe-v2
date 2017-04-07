@@ -1,0 +1,99 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-product">
+                <div class="card-image" data-header-animation="false">
+                    <a ui-href="scenario">
+                        <img class="img" src="./assets/img/card-2.jpg">
+                    </a>
+                </div>
+                <div class="card-content">
+                    <h4 class="card-title">
+                        <a ui-sref="scenario">{{scenario.name}}</a>
+                    </h4>
+                    <div class="card-description">
+                        {{scenario.description}}
+                        <br/>
+                        <button ng-show="contains()" class="btn btn-success" ng-click="addToCart()">
+                                        <span class="btn-label">
+                                            <i class="material-icons">check</i>
+                                        </span>
+                            Add to cart
+                        </button>
+                        <button class="btn btn-social btn-fill btn-facebook">
+                            <i class="fa fa-facebook-square"></i> Share &middot; 2.2k
+                        </button>
+                        <hr>
+                        <h3 class="text-rose">Skills</h3>
+                        <div ng-repeat="skill in scenario.skills">
+                            <h6 class="text-info">{{skill.name}}</h6>
+                            <p>{{skill.description}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="price text-warning">
+                        <h4>Medium</h4>
+                    </div>
+                    <div class="stats pull-right">
+                        <p class="category">Skill 1, Skill 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="card">
+                <form ng-submit="submitReview()">
+                <div class="card-content">
+                    <div class="form-group">
+                        <label>Review</label>
+                        <div class="form-group label-floating">
+                            <label class="control-label"></label>
+                            <textarea class="form-control" rows="5" ng-model="newReview.description"></textarea>
+                        </div>
+                    </div><!--
+                    <p class="text-success"><i class="fa fa-thumbs-o-up fa-2x"></i> Like</p>
+                    <p class="text-danger"><i class="fa fa-thumbs-o-down fa-2x"></i> Dislike</p>
+                    <p class="text-success"><i class="fa fa-thumbs-up fa-2x"></i> Liked</p>
+                    <p class="text-danger"><i class="fa fa-thumbs-down fa-2x"></i> Disliked</p>
+                    -->
+                    <button type="submit" class="btn btn-rose">Add Review</button>
+                    <label class="text-success" style="cursor: pointer;margin-left: 20px">
+                        <input hidden type="radio" ng-model="newReview.rate" ng-value="true"/>
+                        <i ng-class="{'fa fa-thumbs-o-up fa-2x':!newReview.rate,'fa fa-thumbs-up fa-2x':newReview.rate}"></i>
+                    </label>
+                    <label class="text-danger" style="cursor: pointer;margin-left: 20px" >
+                        <input hidden type="radio" ng-model="newReview.rate" ng-value="false"/>
+                        <i ng-class="{'fa fa-thumbs-o-down fa-2x':newReview.rate,'fa fa-thumbs-down fa-2x':!newReview.rate}"></i>
+                    </label>
+
+                </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="col-md-12">
+            <ul class="timeline timeline-simple">
+                <li ng-repeat="review in reviews | orderBy:'-'" class="timeline-inverted">
+                    <div class="timeline-badge" ng-class="{'success':review.rate,'danger':!review.rate}">
+                        <i ng-show="review.rate" class="material-icons">thumb_up</i>
+                        <i ng-show="!review.rate" class="material-icons">thumb_down</i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <span class="label" ng-class="{'label-success':review.rate,'label-danger':!review.rate}">{{review.user.user_name}}</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>{{review.description}}</p>
+                        </div>
+                        <h6>
+                            <i class="ti-time"></i>{{review.date| timeAgo}}
+                        </h6>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

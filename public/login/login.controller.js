@@ -1,0 +1,66 @@
+(function (angular) {
+    'use strict';
+    function loginControllerFN($scope,$rootScope,User,$state,Session,Scenario,Reservation,Facebook) {
+        $scope.user = {};
+        $scope.getLoginStatus = function () {
+            Facebook.getLoginStatus(function (response) {
+                if (response.status === 'connected') {
+                    fetch();
+                } else {
+                    login();
+                }
+            });
+        };
+        var login = function () {
+            // From now on you can use the Facebook service just as Facebook api says
+            Facebook.login(function (response) {
+                fetch();
+            });
+        };
+        var fetch = function () {
+            Facebook.api('/me', {fields: 'first_name,last_name,picture'}, function (response) {
+                User.fb({id:response.id}).$promise.then((data)=>{
+                    if(!data.status){
+                        var temp = new User();
+                        temp.fb_id = response.id;
+                        temp.first_name = response.first_name;
+                        temp.last_name = response.last_name;
+                        temp.image = response.picture.data.url;
+                        temp.$register().then((d)=>{
+                        });
+                    }else{
+                        Session.save(data.user);
+                        Session.saveToken(data.token);
+                        $rootScope.cart = [];
+                        Session.saveCart([]);
+                        Reservation.getReservations({id:data.user._id}).$promise.then((d)=>{
+                            Session.saveReservations(d);
+                            $state.go('home');
+                        });
+                    }
+                });
+                //$scope.user = response;
+            });
+        };
+        $scope.login = function(){
+            var temp = new User($scope.user);
+            temp.$login().then(function(data){
+                if (data.status){
+                    //localStorage.setItem('id_token',data.token);
+                    Session.save(data.user);
+                    Session.saveToken(data.token);
+                    $rootScope.cart = [];
+                    Session.saveCart([]);
+                    Reservation.getReservations({id:$scope.user._id}).$promise.then((data)=>{
+                        Session.saveReservations(data);
+                        $state.go('home');
+                    });
+                }
+                else
+                    $scope.user= {};
+            })
+        };
+    }
+    loginControllerFN.$inject = ['$scope','$rootScope','User','$state','Session','Scenario','Reservation','Facebook'];
+    angular.module('app').controller('LoginController', loginControllerFN);
+})(angular);

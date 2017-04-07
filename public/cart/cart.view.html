@@ -1,0 +1,99 @@
+<div class="container-fluid">
+    <div class="col-sm-8 col-sm-offset-2">
+        <!--      Wizard container        -->
+        <div class="wizard-container">
+            <div class="card wizard-card" data-color="green" id="wizardProfile">
+                <form ng-submit="submitReservation()">
+                    <!--        You can switch " data-color="purple" "  with one of the next bright colors: "green", "orange", "red", "blue"       -->
+                    <div class="wizard-header">
+                        <h3 class="wizard-title">
+                            Make Reservation
+                        </h3>
+                        <h5>Make sure all informations are correct.</h5>
+                    </div>
+                    <div class="wizard-navigation">
+                        <ul>
+                            <li>
+                                <a href="#about" data-toggle="tab">Scenarios</a>
+                            </li>
+                            <li>
+                                <a href="#account" data-toggle="tab">Date and Time</a>
+                            </li>
+                            <li>
+                                <a href="#address" data-toggle="tab">Confirmation</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane" id="about">
+                            <div class="row">
+                                <h4 class="info-text"> Let's start with the list of scenarios you will be going through</h4>
+                                <div ng-repeat="item in cart" class="col-md-4">
+                                    <div class="card card-product">
+                                        <div class="card-image" data-header-animation="false">
+                                            <a ui-sref="scenario">
+                                                <img class="img" src="./assets/img/card-2.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="card-content">
+                                            <h4 class="card-title">
+                                                <a ui-sref="reservationScenario">{{item.name}}</a>
+                                            </h4>
+                                            <div class="card-description">
+                                                <button ng-click="remove(item._id)" class="btn btn-danger">Remove</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="price text-warning">
+                                                <h4>Medium</h4>
+                                            </div>
+                                            <div class="stats pull-right">
+                                                <p class="category"><span ng-repeat="skill in item.skills">{{skill.name}}{{$last ? '' : ', '}}</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="account">
+                            <h4 class="info-text"> Now lets set the date </h4>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label class="label-control">Date and Time</label>
+                                    <input type="datetime" class="form-control datetimepicker" ng-model="reservation.date"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="address">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="info-text"> Let's make confirmation Press (FINISH) </h4>
+                                    <div class="card">
+                                        <div class="card-header card-header-icon" data-background-color="rose">
+                                            <i class="material-icons">add_location</i>
+                                        </div>
+                                        <div class="card-content">
+                                            <h4 class="card-title">Where to find US</h4>
+                                            <ng-map center="[40.74, -74.18]"></ng-map>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wizard-footer">
+                        <div class="pull-right">
+                            <input type='button' class='btn btn-next btn-fill btn-rose btn-wd' name='next' value='Next' />
+                            <input type='submit' class='btn btn-finish btn-fill btn-rose btn-wd' name='finish' value='Finish' />
+                        </div>
+                        <div class="pull-left">
+                            <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- wizard container -->
+    </div>
+</div>

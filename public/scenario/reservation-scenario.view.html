@@ -1,0 +1,46 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-product">
+                <div class="card-image" data-header-animation="false">
+                    <a ui-sref="scenario">
+                        <img class="img" src="./assets/img/card-2.jpg">
+                    </a>
+                </div>
+                <div class="card-content">
+                    <h4 class="card-title">
+                        <a ui-sref="scenario">{{scenarioReservation.name}}</a>
+                    </h4>
+                    <div class="card-description">
+                        {{scenarioReservation.description}}
+                        <div ng-repeat="item in scenarioReservation.skills">
+                        <h5>{{item.skill.name}}</h5>
+                        <div class="progress progress-line-primary">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                <span class="sr-only">0% Complete</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="price text-warning">
+                        <h4>Medium</h4>
+                    </div>
+                    <div class="stats pull-right">
+                        <p class="category"><span ng-repeat="skill in scenarioReservation.skills">{{skill.skill.name}}{{$last ? '' : ', '}}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <button ng-click="remove()" class="btn btn-danger">
+                                        <span class="btn-label">
+                                            <i class="material-icons">priority_high</i>
+                                        </span>
+                Remove from reservation
+            </button>
+
+        </div>
+    </div>
+</div>
