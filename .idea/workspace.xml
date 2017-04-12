@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923861c3-ec9b-4d2e-b517-bb6b72923c54" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api.js" afterPath="$PROJECT_DIR$/api/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/models.js" afterPath="$PROJECT_DIR$/models/models.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/demo.js" afterPath="$PROJECT_DIR$/public/assets/js/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/material-dashboard.js" afterPath="$PROJECT_DIR$/public/assets/js/material-dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cart/cart.controller.js" afterPath="$PROJECT_DIR$/public/cart/cart.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cart/cart.view.html" afterPath="$PROJECT_DIR$/public/cart/cart.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/home/home.controller.js" afterPath="$PROJECT_DIR$/public/home/home.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/home/home2.view.html" afterPath="$PROJECT_DIR$/public/home/home2.view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index2/index2.controller.js" afterPath="$PROJECT_DIR$/public/index2/index2.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index2/index22.view.html" afterPath="$PROJECT_DIR$/public/index2/index22.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login/login.controller.js" afterPath="$PROJECT_DIR$/public/login/login.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login/login2.view.html" afterPath="$PROJECT_DIR$/public/login/login2.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login/register.controller.js" afterPath="$PROJECT_DIR$/public/login/register.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login/register2.view.html" afterPath="$PROJECT_DIR$/public/login/register2.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/profile/edit-profile.controller.js" afterPath="$PROJECT_DIR$/public/profile/edit-profile.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/profile/edit-profile.view.html" afterPath="$PROJECT_DIR$/public/profile/edit-profile.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/profile/profile2.view.html" afterPath="$PROJECT_DIR$/public/profile/profile2.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/reservation/reservation.controller.js" afterPath="$PROJECT_DIR$/public/reservation/reservation.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/reservation/reservation.view.html" afterPath="$PROJECT_DIR$/public/reservation/reservation.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/run.js" afterPath="$PROJECT_DIR$/public/run.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,16 +33,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register2.view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/login/register2.view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="86" column="75" lean-forward="false" selection-start-line="86" selection-start-column="75" selection-end-line="86" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/login/login.controller.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,6 +48,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="85" column="65" lean-forward="false" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -107,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.view.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cart.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/cart/cart.view.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
@@ -151,8 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>file</find>
-      <find>token</find>
       <find>src</find>
       <find>image</find>
       <find>template</find>
@@ -181,6 +155,8 @@
       <find>change</find>
       <find>remove</find>
       <find>some</find>
+      <find>http</find>
+      <find>http:</find>
     </findStrings>
     <replaceStrings>
       <replace>navbar-collapse-admin</replace>
@@ -234,7 +210,6 @@
         <option value="$PROJECT_DIR$/public/home/categories.resource.js" />
         <option value="$PROJECT_DIR$/public/pagination.filter.js" />
         <option value="$PROJECT_DIR$/public/home/home2.view.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/home/home.controller.js" />
         <option value="$PROJECT_DIR$/public/cart/cart.controller.js" />
         <option value="$PROJECT_DIR$/public/login/login.controller.js" />
@@ -246,6 +221,7 @@
         <option value="$PROJECT_DIR$/public/profile/edit-profile.controller.js" />
         <option value="$PROJECT_DIR$/public/profile/profile2.view.html" />
         <option value="$PROJECT_DIR$/public/cart/cart.view.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -693,12 +669,12 @@
       <workItem from="1491757069728" duration="4857000" />
       <workItem from="1491996878810" duration="7415000" />
       <workItem from="1492005749479" duration="1374000" />
-      <workItem from="1492008045902" duration="15049000" />
+      <workItem from="1492008045902" duration="15381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180472000" />
+    <option name="totallyTimeSpent" value="180804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -925,14 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="53" column="96" lean-forward="false" selection-start-line="53" selection-start-column="96" selection-end-line="53" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/cart/cart.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1037,6 +1005,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="76" column="126" lean-forward="false" selection-start-line="76" selection-start-column="126" selection-end-line="76" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="85" column="65" lean-forward="false" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="65" />
           <folding />
         </state>
       </provider>
