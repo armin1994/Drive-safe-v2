@@ -1221,17 +1221,17 @@ demo = {
 		});
     },
 
-	showNotification: function(from, align){
+	showNotification: function(from, align,message,t1,t2){
         type = ['','info','success','warning','danger','rose','primary'];
 
-        color = Math.floor((Math.random() * 6) + 1);
-
+        //color = Math.floor((Math.random() * 6) + 1);
+        icon = ['error','warning','notifications'];
     	$.notify({
-        	icon: "notifications",
-        	message: "Welcome to <b>Material Dashboard</b> - a beautiful freebie for every web developer."
+        	icon: icon[t2],
+        	message: message
 
         },{
-            type: type[color],
+            type: type[t1],
             timer: 3000,
             placement: {
                 from: from,

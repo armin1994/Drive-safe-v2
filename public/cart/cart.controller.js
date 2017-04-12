@@ -1,7 +1,7 @@
 (function (angular) {
     'use strict';
 
-    function ControllerFn($scope,$rootScope,Session,Reservation,$state) {
+    function ControllerFn($scope,$rootScope,Session,Reservation,$state,NgMap,$timeout) {
         $scope.cart = [];
         $scope.cart = Session.getCart();
         $scope.reservation = {};
@@ -42,7 +42,16 @@
             $rootScope.cart = $scope.cart;
             Session.saveCart($scope.cart);
         }
+        $scope.callback = ()=>{
+            $timeout(function() {
+                NgMap.getMap({id:'mainMap'}).then(function(response) {
+                    google.maps.event.trigger(response, 'resize');
+                });
+            }, 200);
+        }
+
+
     }
-    ControllerFn.$inject = ['$scope','$rootScope','Session','Reservation','$state'];
+    ControllerFn.$inject = ['$scope','$rootScope','Session','Reservation','$state','NgMap','$timeout'];
     angular.module("app").controller("CartController", ControllerFn);
 })(angular);

@@ -1,4 +1,5 @@
 <div class="container-fluid">
+    <form ng-submit="submit()">
     <div class="row">
         <div class="col-md-8">
             <div class="card">
@@ -9,7 +10,7 @@
                     <h4 class="card-title">Edit Profile -
                         <small class="category">Complete your profile</small>
                     </h4>
-                    <form ng-submit="submit()">
+
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group label-floating">
@@ -59,7 +60,7 @@
                         </div>
                         <input type="submit" class="btn btn-rose pull-right" value="Update Profile">
                         <div class="clearfix"></div>
-                    </form>
+
                 </div>
             </div>
         </div>
@@ -69,21 +70,22 @@
                     <legend>Profile Avatar</legend>
                     <div class="fileinput fileinput-new text-center" data-provides="fileinput">
                         <div class="fileinput-new thumbnail img-circle">
-                            <img src="./assets/img/placeholder.jpg" alt="...">
+                            <img ng-src="assets/img/uploads/{{user.image}}" err-src="./assets/img/placeholder.jpg" alt="...">
                         </div>
                         <div class="fileinput-preview fileinput-exists thumbnail img-circle"></div>
                         <div>
                                             <span class="btn btn-round btn-rose btn-file">
                                                 <span class="fileinput-new">Add Photo</span>
                                                 <span class="fileinput-exists">Change</span>
-                                                <input type="file" ng-model="file"  />
+                                                <input type="file" accept="image/*" nv-file-select uploader="uploader" />
                                             </span>
                             <br/>
-                            <a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
+                            <button ng-click="resetImage()" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </form>
 </div>

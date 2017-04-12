@@ -1,16 +1,22 @@
 (function (angular) {
     'use strict';
-    function ControllerFN($scope,$state,User) {
+    function ControllerFN($scope, $state, User) {
         $scope.user = {};
-        $scope.register = function(){
+        $scope.register = function () {
             var temp = new User($scope.user);
-            temp.$register().then(function(data){
-                console.log(data);
+            temp.$register().then(function (data) {
+                if (data.status){
                 demo.showSwal('success-registration');
-               $state.go('login');
+                $state.go('login');
+                }
+                else{
+                    var message = "Error username or email already exist"
+                    demo.showNotification('top','center',message,4,0);
+                }
             });
         }
     }
-    ControllerFN.$inject = ['$scope','$state','User'];
+
+    ControllerFN.$inject = ['$scope', '$state', 'User'];
     angular.module('app').controller('RegisterController', ControllerFN);
 })(angular);

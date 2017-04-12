@@ -1,7 +1,7 @@
-<div class="container-fluid">
+<div class="container-fluid" >
     <div class="row">
         <div class="col-md-3">
-            <div class="card">
+            <div class="card" cg-busy="promiseCategories">
                 <div class="card-header card-header-icon" data-background-color="rose">
                     <i class="material-icons">search</i>
                 </div>
@@ -14,67 +14,47 @@
                         </div>
                         <br><br>
                         <label>Difficulty</label>
-                        <div class="radio">
+                        <div class="checkbox">
                             <label>
-                                <input type="radio" name="optionsRadios" checked="true"> Easy
+                                <input type="checkbox" name="optionsCheckboxes" ng-model="checkboxFilter['0']"> Easy
                             </label>
                         </div>
-                        <div class="radio">
+                        <div class="checkbox">
                             <label>
-                                <input type="radio" name="optionsRadios" checked="true"> Medium
+                                <input type="checkbox" name="optionsCheckboxes" ng-model="checkboxFilter['1']"> Medium
                             </label>
                         </div>
-                        <div class="radio">
+                        <div class="checkbox">
                             <label>
-                                <input type="radio" name="optionsRadios" checked="true"> Hard
+                                <input type="checkbox" name="optionsCheckboxes" ng-model="checkboxFilter['2']"> Hard
                             </label>
                         </div>
                         <br><br>
-                        <label>Skills</label>
+                        <label>Categories</label>
+                        <div ng-repeat="category in categories" lazy-load>
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox" name="optionsCheckboxes"> Skill 1
+                                <input type="checkbox" name="optionsCheckboxes" ng-model="categoriesFilter[category.name]" ng-init="categoriesFilter[category.name]=false"> {{category.name}}
                             </label>
                         </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="optionsCheckboxes"> Skill 2
-                            </label>
                         </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="optionsCheckboxes"> Skill 3
-                            </label>
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="optionsCheckboxes"> Skill 4
-                            </label>
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="optionsCheckboxes"> Skill 5
-                            </label>
-                        </div>
-                        <br><br>
-                        <button type="submit" class="btn btn-fill btn-rose">Search</button>
                     </form>
                 </div>
             </div>
         </div>
         <div class="col-md-9">
             <div class="row">
-                <div class="card">
+                <div class="card" cg-busy="promise">
                     <div class="card-content">
                         <div class="col-md-4 col-md-offset-8">
-                            <select class="selectpicker" data-style="btn btn-rose btn-round"
-                                    title="Single Select" data-size="7">
-                                <option value="1" selected>Sort By Difficulty</option>
-                                <option value="2">Sort By Reviews</option>
+                            <select id="myselect" class="selectpicker" data-style="btn btn-rose btn-round"
+                                    title="sort by">
+                                <option value="difficulty" selected>Sort By Difficulty</option>
+                                <option value="name">Sort By Name</option>
                             </select>
                         </div>
 
-                        <div ng-repeat="scenario in scenarios | filter:query" class="col-md-4">
+                        <div ng-repeat="scenario in (filteredList = (scenarios | filter:query | checkbox:checkboxFilter:'difficulty'| checkbox:categoriesFilter:'category' | orderBy:sortBy)| startFrom:currentPage*pageSize | limitTo:pageSize)" class="col-md-4">
                             <div class="card card-product">
                                 <a ui-sref="scenario({id:scenario._id})">
                                 <div class="card-image" data-header-animation="false">
@@ -87,12 +67,16 @@
                                         <a ui-sref="scenario({id:scenario._id})">{{scenario.name}}</a>
                                     </h4>
                                     <div class="card-description">
-                                        {{scenario.description}}...
+                                        {{scenario.description | limitTo:50 }}...
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <div class="price" ng-class="{'text-success':scenario.difficulty == 'Easy','text-warning':scenario.difficulty == 'Medium','text-danger':scenario.difficulty == 'Hard'}">
-                                        <h4>{{scenario.difficulty}}</h4>
+                                    <div class="price" ng-class="{'text-success':scenario.difficulty == 0,'text-warning':scenario.difficulty == 1,'text-danger':scenario.difficulty == 2}">
+                                        <h4 ng-switch="scenario.difficulty">
+                                            <span ng-switch-when="0">Easy</span>
+                                            <span ng-switch-when="1">Medium</span>
+                                            <span ng-switch-when="2">Hard</span>
+                                        </h4>
                                     </div>
                                     <div class="stats pull-right">
                                         <p class="category"><span ng-repeat="skill in scenario.skills">{{skill.name}}{{$last ? '' : ', '}}</span></p>
@@ -159,13 +143,13 @@
             <div class="row">
                 <ul class="pagination pagination-primary">
                     <li>
-                        <a href="javascript:void(0);"> prev</a>
+                        <a ng-show="currentPage != 0" ng-click="currentPage=currentPage-1" href="#"> prev</a>
                     </li>
-                    <li class="active">
-                        <a href="javascript:void(0);">1</a>
+                    <li ng-repeat="i in numberOfPages() track by $index" ng-class="{'active':currentPage==$index}">
+                        <a href="#" ng-click="change($index)" >{{$index+1}}</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);">next </a>
+                        <a ng-show="currentPage < scenarios.length/pageSize - 1" ng-click="currentPage=currentPage+1" href="#">next </a>
                     </li>
                 </ul>
             </div>

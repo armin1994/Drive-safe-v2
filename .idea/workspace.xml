@@ -2,564 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923861c3-ec9b-4d2e-b517-bb6b72923c54" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ad.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ae.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/af.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ai.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/al.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/am.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ao.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/aq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/as.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/at.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/au.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/aw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ax.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/az.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ba.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/be.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/br.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/by.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/bz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ca.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ch.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ci.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ck.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/co.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cx.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/cz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/de.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/dj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/dk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/dm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/do.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/dz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ec.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ee.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/eg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/eh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/er.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/es.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/et.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/eu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/fi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/fj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/fk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/fm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/fo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/fr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ga.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gb-eng.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gb-nir.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gb-sct.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gb-wls.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ge.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/gy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/hk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/hm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/hn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/hr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ht.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/hu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/id.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ie.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/il.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/im.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/in.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/io.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/iq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ir.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/is.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/it.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/je.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/jm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/jo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/jp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ke.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/kg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/kh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ki.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/km.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/kn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/kp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/kr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/kw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ky.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/kz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/la.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/lb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/lc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/li.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/lk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/lr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ls.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/lt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/lu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/lv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ly.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ma.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/md.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/me.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ml.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ms.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mx.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/my.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/mz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/na.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/nc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ne.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/nf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ng.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ni.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/nl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/no.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/np.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/nr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/nu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/nz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/om.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ph.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ps.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/pw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/py.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/qa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/re.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ro.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/rs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ru.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/rw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/se.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/si.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/so.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ss.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/st.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sx.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/sz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/td.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/th.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/to.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/tz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ua.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ug.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/um.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/un.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/us.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/uy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/uz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/va.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/vc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ve.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/vg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/vi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/vn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/vu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/wf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ws.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/ye.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/yt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/za.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/zm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/zw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/1x1/zz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ad.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ae.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/af.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ai.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/al.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/am.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ao.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/aq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/as.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/at.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/au.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/aw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ax.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/az.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ba.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/be.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/br.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/by.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/bz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ca.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ch.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ci.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ck.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/co.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cx.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/cz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/de.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/dj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/dk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/dm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/do.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/dz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ec.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ee.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/eg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/eh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/er.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/es.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/et.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/eu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/fi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/fj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/fk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/fm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/fo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/fr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ga.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gb-eng.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gb-nir.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gb-sct.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gb-wls.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ge.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/gy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/hk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/hm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/hn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/hr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ht.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/hu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/id.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ie.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/il.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/im.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/in.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/io.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/iq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ir.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/is.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/it.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/je.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/jm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/jo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/jp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ke.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/kg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/kh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ki.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/km.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/kn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/kp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/kr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/kw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ky.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/kz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/la.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/lb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/lc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/li.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/lk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/lr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ls.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/lt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/lu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/lv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ly.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ma.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/md.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/me.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ml.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mq.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ms.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mx.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/my.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/mz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/na.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/nc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ne.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/nf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ng.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ni.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/nl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/no.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/np.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/nr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/nu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/nz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/om.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ph.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ps.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/pw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/py.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/qa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/re.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ro.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/rs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ru.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/rw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/se.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/si.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/so.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ss.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/st.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sx.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/sz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/td.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/th.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tj.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/to.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tv.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/tz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ua.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ug.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/um.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/un.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/us.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/uy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/uz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/va.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/vc.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ve.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/vg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/vi.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/vn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/vu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/wf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ws.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/ye.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/yt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/za.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/zm.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/zw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flags/4x3/zz.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/flat-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/theme/blue-sky.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/theme/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/theme/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/theme/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/theme/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/vendor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/400x300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/five-star-review.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/landing/ss.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/landing/ss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/profile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/s1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/s2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/s3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/s4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/s5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/vendor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/header/header.view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/home/home.view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index2/index2.view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/login/login.view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/login/register.view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/panier/panier.view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/profile/profile.view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/profile/reservation.view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/profile/scenario.view.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api.js" afterPath="$PROJECT_DIR$/api/api.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/models.js" afterPath="$PROJECT_DIR$/models/models.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/header/header.controller.js" afterPath="$PROJECT_DIR$/public/header/header.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/demo.js" afterPath="$PROJECT_DIR$/public/assets/js/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/material-dashboard.js" afterPath="$PROJECT_DIR$/public/assets/js/material-dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cart/cart.controller.js" afterPath="$PROJECT_DIR$/public/cart/cart.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/cart/cart.view.html" afterPath="$PROJECT_DIR$/public/cart/cart.view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/home/home.controller.js" afterPath="$PROJECT_DIR$/public/home/home.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/home/home2.view.html" afterPath="$PROJECT_DIR$/public/home/home2.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index2/index2.controller.js" afterPath="$PROJECT_DIR$/public/index2/index2.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index2/index22.view.html" afterPath="$PROJECT_DIR$/public/index2/index22.view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login/login.controller.js" afterPath="$PROJECT_DIR$/public/login/login.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login/login2.view.html" afterPath="$PROJECT_DIR$/public/login/login2.view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login/register.controller.js" afterPath="$PROJECT_DIR$/public/login/register.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login/user.resource.js" afterPath="$PROJECT_DIR$/public/login/user.resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/login/register2.view.html" afterPath="$PROJECT_DIR$/public/login/register2.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/profile/edit-profile.controller.js" afterPath="$PROJECT_DIR$/public/profile/edit-profile.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/profile/edit-profile.view.html" afterPath="$PROJECT_DIR$/public/profile/edit-profile.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/profile/profile2.view.html" afterPath="$PROJECT_DIR$/public/profile/profile2.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/reservation/reservation.controller.js" afterPath="$PROJECT_DIR$/public/reservation/reservation.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/reservation/reservation.view.html" afterPath="$PROJECT_DIR$/public/reservation/reservation.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/run.js" afterPath="$PROJECT_DIR$/public/run.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -581,46 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home2.view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/home/home2.view.html">
+      <file leaf-file-name="login2.view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/login/login2.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="15" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <marker date="1491524688956" expanded="false" signature="5355:6761" ph="..." />
-                <marker date="1491524688956" expanded="false" signature="6808:8210" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/home/home.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="269">
+              <caret line="63" column="75" lean-forward="false" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -629,18 +60,28 @@
       <file leaf-file-name="register2.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/login/register2.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+            <state relative-caret-position="269">
+              <caret line="86" column="75" lean-forward="false" selection-start-line="86" selection-start-column="75" selection-end-line="86" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit-profile.view.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/profile/edit-profile.view.html">
+      <file leaf-file-name="login.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/login/login.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="78" column="75" lean-forward="false" selection-start-line="78" selection-start-column="75" selection-end-line="78" selection-end-column="75" />
+            <state relative-caret-position="255">
+              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="60" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -649,38 +90,58 @@
       <file leaf-file-name="edit-profile.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/profile/edit-profile.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="124">
+              <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="profile2.view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/profile/profile2.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+            <state relative-caret-position="116">
+              <caret line="21" column="91" lean-forward="false" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app.js">
+      <file leaf-file-name="cart.view.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/cart/cart.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="104" column="152" lean-forward="false" selection-start-line="104" selection-start-column="152" selection-end-line="104" selection-end-column="152" />
+            <state relative-caret-position="167">
+              <caret line="76" column="126" lean-forward="false" selection-start-line="76" selection-start-column="126" selection-end-line="76" selection-end-column="126" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/profile/profile.controller.js">
+      <file leaf-file-name="edit-profile.view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/profile/edit-profile.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="116">
+              <caret line="78" column="85" lean-forward="false" selection-start-line="78" selection-start-column="79" selection-end-line="78" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/models.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/login/register.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="72" lean-forward="false" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -690,36 +151,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jquery</find>
-      <find>asset</find>
-      <find>hidden</find>
-      <find>href</find>
-      <find>sref</find>
-      <find>input-</find>
-      <find>input-group-addon</find>
-      <find>broken</find>
-      <find>span</find>
-      <find>includes</find>
-      <find>date</find>
-      <find>input</find>
-      <find>form</find>
-      <find>reservation</find>
-      <find>ng-repeat</find>
-      <find>contains</find>
-      <find>remove</find>
-      <find>profile</find>
-      <find>password</find>
-      <find>console</find>
-      <find>log</find>
-      <find>ng-rep</find>
-      <find>success-mess</find>
-      <find>dashb</find>
-      <find>location</find>
-      <find>face</find>
-      <find>demo.showSwal('success-registration');</find>
+      <find>file</find>
+      <find>token</find>
       <find>src</find>
-      <find>con</find>
-      <find>add</find>
+      <find>image</find>
+      <find>template</find>
+      <find>card</find>
+      <find>angular-busy.html</find>
+      <find>diff</find>
+      <find>selectp</find>
+      <find>li</find>
+      <find>&lt;li</find>
+      <find>selectpicker</find>
+      <find>select</find>
+      <find>check</find>
+      <find>len</find>
+      <find>ng-reat</find>
+      <find>search</find>
+      <find>next</find>
+      <find>start</find>
+      <find>filter</find>
+      <find>map</find>
+      <find>confirm</find>
+      <find>finish</find>
+      <find>showNotification</find>
+      <find>notifications</find>
+      <find>email</find>
+      <find>input</find>
+      <find>change</find>
+      <find>remove</find>
+      <find>some</find>
     </findStrings>
     <replaceStrings>
       <replace>navbar-collapse-admin</replace>
@@ -734,57 +195,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/skill.js" />
-        <option value="$PROJECT_DIR$/routes/category.js" />
-        <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/public/index/index-v2.view.html" />
-        <option value="$PROJECT_DIR$/public/home/home.view.html" />
-        <option value="$PROJECT_DIR$/public/index2.html" />
-        <option value="$PROJECT_DIR$/public/panier/cart.view.html" />
-        <option value="$PROJECT_DIR$/public/assets/css/material-dashboard.css" />
-        <option value="$PROJECT_DIR$/public/home/scenario.resource.js" />
         <option value="$PROJECT_DIR$/public/config.js" />
-        <option value="$PROJECT_DIR$/public/assets/js/material-dashboard.js" />
-        <option value="$PROJECT_DIR$/public/index2/index2.controller.js" />
-        <option value="$PROJECT_DIR$/public/home/home.controller.js" />
         <option value="$PROJECT_DIR$/public/cart/reservation.resource.js" />
         <option value="$PROJECT_DIR$/routes/review.js" />
         <option value="$PROJECT_DIR$/public/scenario/review.resource.js" />
         <option value="$PROJECT_DIR$/public/reservation/reservation.resource.js" />
-        <option value="$PROJECT_DIR$/public/reservation/reservation.view.html" />
         <option value="$PROJECT_DIR$/routes/reservation.js" />
         <option value="$PROJECT_DIR$/public/reservation/reservation-details.controller.js" />
         <option value="$PROJECT_DIR$/public/reservation/reservation-details.view.html" />
-        <option value="$PROJECT_DIR$/public/cart/cart.view.html" />
         <option value="$PROJECT_DIR$/public/profile/profile.controller.js" />
         <option value="$PROJECT_DIR$/public/session.js" />
         <option value="$PROJECT_DIR$/public/header/header.controller.js" />
         <option value="$PROJECT_DIR$/routes/scenario.js" />
         <option value="$PROJECT_DIR$/public/scenario/reservation-scenario.view.html" />
-        <option value="$PROJECT_DIR$/public/home/home2.view.html" />
-        <option value="$PROJECT_DIR$/public/login/register2.view.html" />
-        <option value="$PROJECT_DIR$/public/login/register.controller.js" />
-        <option value="$PROJECT_DIR$/public/reservation/reservation.controller.js" />
         <option value="$PROJECT_DIR$/public/scenario/reservation-scenario.controller.js" />
-        <option value="$PROJECT_DIR$/public/cart/cart.controller.js" />
-        <option value="$PROJECT_DIR$/public/assets/js/demo.js" />
         <option value="$PROJECT_DIR$/public/scenario/scenario.controller.js" />
         <option value="$PROJECT_DIR$/public/scenario/scenario.view.html" />
-        <option value="$PROJECT_DIR$/public/run.js" />
         <option value="$PROJECT_DIR$/public/header/header2.view.html" />
-        <option value="$PROJECT_DIR$/public/login/login2.view.html" />
         <option value="$PROJECT_DIR$/public/login/user.resource.js" />
-        <option value="$PROJECT_DIR$/models/models.js" />
-        <option value="$PROJECT_DIR$/routes/user.js" />
-        <option value="$PROJECT_DIR$/public/login/login.controller.js" />
-        <option value="$PROJECT_DIR$/public/index2/index22.view.html" />
-        <option value="$PROJECT_DIR$/public/profile/profile2.view.html" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/app.js" />
+        <option value="$PROJECT_DIR$/public/image-error.directive.js" />
         <option value="$PROJECT_DIR$/api/api.js" />
-        <option value="$PROJECT_DIR$/public/profile/edit-profile.controller.js" />
+        <option value="$PROJECT_DIR$/public/index2/index22.view.html" />
         <option value="$PROJECT_DIR$/public/profile/edit-profile.view.html" />
+        <option value="$PROJECT_DIR$/public/run.js" />
+        <option value="$PROJECT_DIR$/public/lib/angular-busy-master/demo/demo.js" />
+        <option value="$PROJECT_DIR$/public/lib/angular-busy-master/dist/angular-busy.html" />
+        <option value="$PROJECT_DIR$/public/angular-busy.html" />
+        <option value="$PROJECT_DIR$/public/lib/angular-busy-master/dist/angular-busy.js" />
+        <option value="$PROJECT_DIR$/public/reservation/reservation.view.html" />
+        <option value="$PROJECT_DIR$/public/reservation/reservation.controller.js" />
+        <option value="$PROJECT_DIR$/models/models.js" />
+        <option value="$PROJECT_DIR$/public/app.js" />
+        <option value="$PROJECT_DIR$/public/index2/index2.controller.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/material-dashboard.js" />
+        <option value="$PROJECT_DIR$/public/lazy-load.directive.js" />
+        <option value="$PROJECT_DIR$/public/checkbox.filter.js" />
+        <option value="$PROJECT_DIR$/public/home/categories.resource.js" />
+        <option value="$PROJECT_DIR$/public/pagination.filter.js" />
+        <option value="$PROJECT_DIR$/public/home/home2.view.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/home/home.controller.js" />
+        <option value="$PROJECT_DIR$/public/cart/cart.controller.js" />
+        <option value="$PROJECT_DIR$/public/login/login.controller.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/demo.js" />
+        <option value="$PROJECT_DIR$/public/login/register2.view.html" />
+        <option value="$PROJECT_DIR$/public/login/login2.view.html" />
+        <option value="$PROJECT_DIR$/public/login/register.controller.js" />
+        <option value="$PROJECT_DIR$/routes/user.js" />
+        <option value="$PROJECT_DIR$/public/profile/edit-profile.controller.js" />
+        <option value="$PROJECT_DIR$/public/profile/profile2.view.html" />
+        <option value="$PROJECT_DIR$/public/cart/cart.view.html" />
       </list>
     </option>
   </component>
@@ -808,7 +269,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -1054,7 +515,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1068,7 +533,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1099,7 +564,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/facebookTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -1111,11 +576,11 @@
       <recent name="C:\Users\Armin\WebstormProjects\Pidev\public\login" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Armin\WebstormProjects\drive-safe-app\public\home" />
+      <recent name="C:\Users\Armin\WebstormProjects\drive-safe-app\public" />
+      <recent name="C:\Users\Armin\WebstormProjects\drive-safe-app\public\lib\angular-busy-master\dist" />
       <recent name="C:\Users\Armin\WebstormProjects\drive-safe-app\public\scenario" />
       <recent name="C:\Users\Armin\WebstormProjects\drive-safe-app\public\reservation" />
-      <recent name="C:\Users\Armin\WebstormProjects\drive-safe-app\public\cart" />
-      <recent name="C:\Users\Armin\WebstormProjects\drive-safe-app\public\home" />
-      <recent name="C:\Users\Armin\WebstormProjects\Pidev\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1130,10 +595,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.reservation-scenario.view.html">
-    <configuration default="false" name="reservation-scenario.view.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/drive-safe-app/public/scenario/reservation-scenario.view.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.bin\www">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -1193,15 +655,9 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Node.js.bin\www" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.reservation-scenario.view.html" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.reservation-scenario.view.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1231,22 +687,29 @@
       <workItem from="1491477701062" duration="5551000" />
       <workItem from="1491484454330" duration="22306000" />
       <workItem from="1491510884943" duration="22607000" />
+      <workItem from="1491650671338" duration="3440000" />
+      <workItem from="1491735493475" duration="12766000" />
+      <workItem from="1491749498852" duration="3300000" />
+      <workItem from="1491757069728" duration="4857000" />
+      <workItem from="1491996878810" duration="7415000" />
+      <workItem from="1492005749479" duration="1374000" />
+      <workItem from="1492008045902" duration="15049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132271000" />
+    <option name="totallyTimeSpent" value="180472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15104167" sideWeight="0.4787234" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1509009" sideWeight="0.4787234" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32252252" sideWeight="0.5030581" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2913257" sideWeight="0.4969419" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29459903" sideWeight="0.4969419" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25076452" sideWeight="0.5212766" order="2" side_tool="true" content_ui="tabs" />
@@ -1278,18 +741,110 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/login/login.view.html" />
-    <entry file="file://$PROJECT_DIR$/public/assets/img/login.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/public/assets/img/1491741682875.jpeg" />
+    <entry file="file://$PROJECT_DIR$/public/assets/img/uploads/1491741999546.jpeg" />
+    <entry file="file://$PROJECT_DIR$/public/assets/img/uploads/1491742063647.jpeg" />
+    <entry file="file://$PROJECT_DIR$/public/profile/profile.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/home/home.view.html" />
-    <entry file="file://$PROJECT_DIR$/public/assets/css/material-dashboard.css">
+    <entry file="file://$PROJECT_DIR$/public/image-error.directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8831" column="2" lean-forward="false" selection-start-line="8831" selection-start-column="2" selection-end-line="8831" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="true" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/login/user.resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index2/index22.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/dist/index.js" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/demo/finalfantasy.gif" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/demo/custom-template.html" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/dist/angular-busy.min.css" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/demo/demo.js" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/angular-busy.html" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/angular-busy.css" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/dist/angular-busy.html" />
+    <entry file="file://$PROJECT_DIR$/public/angular-busy.html" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/dist/angular-busy.js" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/index.js" />
+    <entry file="file://$PROJECT_DIR$/public/lib/angular-busy-master/angular-busy.js" />
+    <entry file="file://$PROJECT_DIR$/public/reservation/reservation.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/reservation/reservation.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/jquery.select-bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="566" column="63" lean-forward="false" selection-start-line="566" selection-start-column="60" selection-end-line="566" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index/index.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="4" lean-forward="false" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/header/header2.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1300,64 +855,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index/index.view.html">
+    <entry file="file://$PROJECT_DIR$/public/index2/index2.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="77" lean-forward="false" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="77" />
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/material-dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1684">
-          <caret line="216" column="31" lean-forward="true" selection-start-line="216" selection-start-column="31" selection-end-line="216" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index2/index2.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="68" lean-forward="false" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scenario/scenario.resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/cart/cart.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="76" column="86" lean-forward="false" selection-start-line="76" selection-start-column="86" selection-end-line="76" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/reservation/reservation.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="27" column="79" lean-forward="false" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="544">
+          <caret line="64" column="29" lean-forward="false" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1491999272058" expanded="true" signature="4803:4844" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1369,194 +882,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/category.js">
+    <entry file="file://$PROJECT_DIR$/public/checkbox.filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lazy-load.directive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/reservation.js">
+    <entry file="file://$PROJECT_DIR$/public/home/categories.resource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/review.js">
+    <entry file="file://$PROJECT_DIR$/public/pagination.filter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/scenario.js">
+    <entry file="file://$PROJECT_DIR$/public/home/home2.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/skill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scenario/reservation-scenario.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="116">
+          <caret line="56" column="240" lean-forward="false" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="240" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1492013837076" expanded="false" signature="5065:6471" ph="..." />
+            <marker date="1492013837076" expanded="false" signature="6518:7920" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/reservation/reservation.controller.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="116">
+          <caret line="53" column="96" lean-forward="false" selection-start-line="53" selection-start-column="96" selection-end-line="53" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/reservation/reservation.resource.js">
+    <entry file="file://$PROJECT_DIR$/public/cart/cart.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="80">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/reservation/reservation-details.controller.js">
+    <entry file="file://$PROJECT_DIR$/public/home/home.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scenario/reservation-scenario.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="65" />
+        <state relative-caret-position="12">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="828" column="25" lean-forward="false" selection-start-line="828" selection-start-column="25" selection-end-line="828" selection-end-column="39" />
+        <state relative-caret-position="158">
+          <caret line="1228" column="18" lean-forward="true" selection-start-line="1228" selection-start-column="18" selection-end-line="1228" selection-end-column="18" />
           <folding>
-            <marker date="1491526219211" expanded="true" signature="6128:6136" ph="·" />
-            <marker date="1491526219211" expanded="true" signature="6537:6545" ph="·" />
-            <marker date="1491526219211" expanded="true" signature="7440:7481" ph="..." />
+            <marker date="1492020746583" expanded="true" signature="6128:6136" ph="·" />
+            <marker date="1492020746583" expanded="true" signature="6537:6545" ph="·" />
+            <marker date="1492020746583" expanded="true" signature="7440:7481" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/cart/cart.controller.js">
+    <entry file="file://$PROJECT_DIR$/public/login/register2.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/reservation/reservation-details.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scenario/scenario.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/header/header2.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="269">
+          <caret line="86" column="75" lean-forward="false" selection-start-line="86" selection-start-column="75" selection-end-line="86" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/login/login2.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scenario/scenario.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scenario/review.resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/login/user.resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="269">
+          <caret line="63" column="75" lean-forward="false" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/models.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/login/register.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="12" column="72" lean-forward="false" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1564,27 +996,31 @@
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/login/login.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="35" column="70" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
-          <folding>
-            <marker date="1491530849154" expanded="true" signature="870:1763" ph="{...}" />
-            <marker date="1491530849154" expanded="true" signature="908:1297" ph="{...}" />
-            <marker date="1491530849154" expanded="true" signature="1301:1745" ph="{...}" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="60" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index2/index22.view.html">
+    <entry file="file://$PROJECT_DIR$/public/profile/edit-profile.view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="90" />
+          <caret line="78" column="85" lean-forward="false" selection-start-line="78" selection-start-column="79" selection-end-line="78" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/profile/edit-profile.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1592,92 +1028,15 @@
     <entry file="file://$PROJECT_DIR$/public/profile/profile2.view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="33" column="106" lean-forward="false" selection-start-line="33" selection-start-column="106" selection-end-line="33" selection-end-column="106" />
+          <caret line="21" column="91" lean-forward="false" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/home/home2.view.html">
+    <entry file="file://$PROJECT_DIR$/public/cart/cart.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="15" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <marker date="1491524688956" expanded="false" signature="5355:6761" ph="..." />
-            <marker date="1491524688956" expanded="false" signature="6808:8210" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/home/home.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/login/register2.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="104" column="152" lean-forward="false" selection-start-line="104" selection-start-column="152" selection-end-line="104" selection-end-column="152" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/profile/profile.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/profile/edit-profile.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/profile/edit-profile.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="78" column="75" lean-forward="false" selection-start-line="78" selection-start-column="75" selection-end-line="78" selection-end-column="75" />
+        <state relative-caret-position="167">
+          <caret line="76" column="126" lean-forward="false" selection-start-line="76" selection-start-column="126" selection-end-line="76" selection-end-column="126" />
           <folding />
         </state>
       </provider>

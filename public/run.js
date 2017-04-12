@@ -6,7 +6,6 @@
             //console.log(toState.name);
             $rootScope.current = toState.name;
             if (!(toState.name == 'login'|| toState.name == 'register')) {
-                console.log(Session.isLoggedIn());
                 if (!Session.isLoggedIn()) {
                     event.preventDefault();
                     $state.go('login');

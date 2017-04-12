@@ -3,7 +3,7 @@
     function ControllerFN($scope, $state, Session,Reservation) {
         $scope.user = Session.get();
         $scope.reservations = [];
-        Reservation.getReservations({id:$scope.user._id}).$promise.then((data)=>{
+        $scope.promise = Reservation.getReservations({id:$scope.user._id}).$promise.then((data)=>{
             $scope.reservations = data;
             Session.saveReservations(data);
         });

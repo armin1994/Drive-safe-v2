@@ -27,6 +27,7 @@
                         temp.last_name = response.last_name;
                         temp.image = response.picture.data.url;
                         temp.$register().then((d)=>{
+							console.log(d);
                         });
                     }else{
                         Session.save(data.user);
@@ -46,7 +47,6 @@
             var temp = new User($scope.user);
             temp.$login().then(function(data){
                 if (data.status){
-                    //localStorage.setItem('id_token',data.token);
                     Session.save(data.user);
                     Session.saveToken(data.token);
                     $rootScope.cart = [];
@@ -56,8 +56,12 @@
                         $state.go('home');
                     });
                 }
-                else
+                else {
+                    var message = "Error wrong login/password combination !!"
+                    demo.showNotification('top','center',message,4,0);
                     $scope.user= {};
+                }
+
             })
         };
     }

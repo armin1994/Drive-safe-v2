@@ -6,7 +6,7 @@
         $scope.user = Session.get();
         $scope.$on('$viewContentLoaded', function (event, toState, toParams, fromState, fromParams) {
             // do something
-            $scope.current = $state.current.name;
+            $scope.user = Session.get();
         });
     }
     index2ControllerFN.$inject = ['$scope','$state','angularLoad','Session'];

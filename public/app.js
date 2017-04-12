@@ -102,6 +102,7 @@
         FacebookProvider.init('228029894268796');
     }
     configFN.$inject = ['$stateProvider','$urlRouterProvider','$locationProvider','$httpProvider', 'jwtOptionsProvider','FacebookProvider'];
-    angular.module('app',['ui.router','duScroll','ngResource','angularLoad','angular-jwt','yaru22.angular-timeago','ngMap','facebook','angularFileUpload']).config(configFN);
+    angular.module('app',['ui.router','duScroll','ngResource','angularLoad','angular-jwt','yaru22.angular-timeago','ngMap','facebook','angularFileUpload','cgBusy'
+    ]).config(configFN);
 }
 )(angular);

@@ -41,7 +41,7 @@ module.exports.review = mongoose.model('Review', reviewSchema);
 var scenarioSchema = new Schema({
     name: {type: String},
     description: {type: String},
-    difficulty: String,
+    difficulty: Number,
     skills: [{type: Schema.ObjectId, ref: 'Skill'}],
     category: {type: Schema.ObjectId, ref: 'Category'},
     image: String
