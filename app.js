@@ -7,9 +7,9 @@ var bodyParser = require('body-parser');
 var expressJwt = require('express-jwt');
 fileUpload = require('express-fileupload');
 var api = require('./api/api');
-
+var cors = require('cors');
 var app = express();
-
+app.use(cors());
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'twig');
@@ -22,6 +22,9 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(fileUpload());
+app.post('/add',(req,res)=>{
+    res.json({status:true});
+})
 app.use('/api', expressJwt({secret: 'armin'}).unless({path: ['/api/user/login', '/api/user/register',/\/api\/user\/fb/i]}), api);
 app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, 'public/index.html'));
