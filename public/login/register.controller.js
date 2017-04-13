@@ -3,6 +3,7 @@
     function ControllerFN($scope, $state, User) {
         $scope.user = {};
         $scope.register = function () {
+            $scope.user.image = "";
             var temp = new User($scope.user);
             temp.$register().then(function (data) {
                 if (data.status){

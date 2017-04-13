@@ -1,11 +1,8 @@
 (function (angular) {
     'use strict';
 
-    function ControllerFn($scope,$state,Session,Scenario,Category,angularLoad) {
+    function ControllerFn($scope,$state,Session,Scenario,Category,angularLoad){
 
-        angularLoad.loadScript('./assets/js/material-dashboard.js');
-        $(".selectpicker").selectpicker();
-        $.material.init();
         $scope.checkboxFilter = {0:false,1:false,2:false};
         $scope.categoriesFilter = {};
         $scope.sortBy = 'difficulty';

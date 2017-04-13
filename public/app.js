@@ -11,8 +11,8 @@
         $httpProvider.interceptors.push('jwtInterceptor');
         var indexState = {
             name: 'index'
-            , url: '/'
             , templateUrl: 'index/index.view.html'
+            , controller : 'IndexController'
         }
         var index2State = {
             name: 'index2'
@@ -22,12 +22,14 @@
         var loginState = {
             name: 'login'
             , url: '/login/'
+            , parent : indexState
             , templateUrl: 'login/login2.view.html'
             , controller : 'LoginController'
         }
         var registerState = {
             name: 'register'
             , url: '/register/'
+            , parent : indexState
             , templateUrl: 'login/register2.view.html'
             , controller : 'RegisterController'
         }
@@ -87,8 +89,17 @@
             , templateUrl: 'cart/cart.view.html'
             , controller: 'CartController'
         }
+        var logOutState = {
+            name: 'logOut'
+            , url: '/logout/'
+            , templateUrl: 'login/login2.view.html'
+            , controller: 'LogoutController'
+        }
+
+        $stateProvider.state(indexState);
         $stateProvider.state(index2State);
         $stateProvider.state(loginState);
+        $stateProvider.state(logOutState);
         $stateProvider.state(registerState);
         $stateProvider.state(homeState);
         $stateProvider.state(profileState);

@@ -33,12 +33,12 @@
  * ========================================================= */
 
  (function(){
+
      isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
 
      if (isWindows && !$('body').hasClass('sidebar-mini')){
         // if we are on windows OS we activate the perfectScrollbar function
         $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar();
-
         $('html').addClass('perfect-scrollbar-on');
     } else {
         $('html').addClass('perfect-scrollbar-off');
@@ -65,7 +65,6 @@ var seq2 = 0, delays2 = 80, durations2 = 500;
 $(document).ready(function(){
 
     $sidebar = $('.sidebar');
-
     $.material.init();
 
     // We put modals out of wrapper to working properly
@@ -117,7 +116,6 @@ $(document).ready(function(){
             var $card = $(this).parent('.card');
 
             $card.find('.fix-broken-card').click(function(){
-                console.log(this);
                 var $header = $(this).parent().parent().siblings('.card-header, .card-image');
 
                 $header.removeClass('hinge').addClass('fadeInDown');
@@ -141,17 +139,18 @@ $(document).ready(function(){
         });
     }
 
-
 });
 
 // activate collapse right menu when the windows is resized
 $(window).resize(function(){
+
     md.initSidebarsCheck();
 
     // reset the seq for charts drawing animations
     seq = seq2 = 0;
 
 });
+
 
 md = {
     misc:{
@@ -161,6 +160,7 @@ md = {
     },
 
     checkSidebarImage: function(){
+
         $sidebar = $('.sidebar');
         image_src = $sidebar.data('image');
 
@@ -171,6 +171,7 @@ md = {
     },
 
     initSliders: function(){
+
         // Sliders for demo purpose
         $('#sliderRegular').noUiSlider({
             start: 40,
@@ -256,6 +257,7 @@ md = {
     },
 
     checkScrollForTransparentNavbar: debounce(function() {
+
             if($(document).scrollTop() > 260 ) {
                 if(transparent) {
                     transparent = false;
@@ -292,7 +294,9 @@ md = {
             $sidebar_nav = $sidebar_wrapper.find(' > .nav');
 
             // insert the navbar form before the sidebar list
+
             $nav_content = $(nav_content);
+            $nav_content.find('.notification').remove();
             $nav_content.insertBefore($sidebar_nav);
             $navbar_form.insertBefore($nav_content);
 
@@ -310,14 +314,12 @@ md = {
                 // reset all the additions that we made for the sidebar wrapper only if the screen is bigger than 991px
                 $sidebar_wrapper.find('.navbar-form').remove();
                 $sidebar_wrapper.find('.nav-mobile-menu').remove();
-
                 mobile_menu_initialized = false;
             }
         }
 
         if(!toggle_initialized){
             $toggle = $('.navbar-toggle');
-
             $toggle.click(function (){
 
                 if(mobile_menu_visible == 1) {
@@ -383,7 +385,6 @@ md = {
             });
 
             nav_content = '<ul class="nav nav-mobile-menu">' + nav_content + '</ul>';
-
             $navbar.html(nav_content);
             $navbar.addClass('off-canvas-sidebar');
 
@@ -395,7 +396,6 @@ md = {
             $navbar.find('a').removeClass('btn btn-round btn-default');
             $navbar.find('button').removeClass('btn-round btn-fill btn-info btn-primary btn-success btn-danger btn-warning btn-neutral');
             $navbar.find('button').addClass('btn-simple btn-block');
-
             $toggle.click(function (){
                 if(mobile_menu_visible == 1) {
                     $('html').removeClass('nav-open');

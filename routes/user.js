@@ -42,7 +42,7 @@ router.post('/register', (req, res, next) => {
         if (err)
             res.json({status: false});
         else
-            res.json({status: true});
+            res.json({status: true,data:data});
     })
 });
 

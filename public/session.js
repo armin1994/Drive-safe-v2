@@ -1,6 +1,6 @@
 (function (angular) {
         'user strict';
-        angular.module('app').factory('Session', function () {
+        angular.module('app').factory('Session', function ($rootScope) {
             return {
                 save: function (data) {
                     sessionStorage.user = JSON.stringify(data);
@@ -10,6 +10,7 @@
                 }
                 , saveCart: function(data){
                     sessionStorage.cart = JSON.stringify(data);
+                    $rootScope.cart = data;
                 }
                 , saveReservations: function(data){
                     sessionStorage.reservations = JSON.stringify(data);

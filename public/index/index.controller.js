@@ -1,8 +1,7 @@
 (function (angular) {
     'use strict';
-    function homeControllerFN($scope) {
-
+    function homeControllerFN($scope,angularLoad) {
     }
-    homeControllerFN.$inject = ['$scope'];
-    angular.module('app').controller('HomeController', homeControllerFN);
+    homeControllerFN.$inject = ['$scope','angularLoad'];
+    angular.module('app').controller('IndexController', homeControllerFN);
 })(angular);

@@ -3,7 +3,6 @@
     //cute is the name of the directive and the HTML you need to write : <cute></cute>
     angular.module('app').run(['$rootScope', 'Session', '$state', function ($rootScope, Session, $state) {
         $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams, options) {
-            //console.log(toState.name);
             $rootScope.current = toState.name;
             if (!(toState.name == 'login'|| toState.name == 'register')) {
                 if (!Session.isLoggedIn()) {
