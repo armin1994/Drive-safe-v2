@@ -72,31 +72,31 @@
             , controller: 'ReservationDetailsController'
         }
         var scenarioState = {
-            name: 'scenario'
-            , url: '/scenario/:id'
-            , parent : index2State
-            , templateUrl: 'scenario/scenario.view.html'
-            , controller: 'ScenarioController'
+            name: 'scenario',
+            url: '/scenario/:id',
+            parent: index2State,
+            templateUrl: 'scenario/scenario.view.html',
+            controller: 'ScenarioController'
         }
         var reservationScenarioState = {
-            name: 'reservationScenario'
-            , url: '/reservation-scenario/:idReservation/:idScenario'
-            , parent : index2State
-            , templateUrl: 'scenario/reservation-scenario.view.html'
-            , controller: 'ReservationScenarioController'
+            name: 'reservationScenario',
+            url: '/reservation-scenario/:idReservation/:idScenario',
+            parent : index2State,
+            templateUrl: 'scenario/reservation-scenario.view.html',
+            controller: 'ReservationScenarioController'
         }
         var cartState = {
-            name: 'cart'
-            , url: '/cart/'
-            , parent : index2State
-            , templateUrl: 'cart/cart.view.html'
-            , controller: 'CartController'
+            name: 'cart',
+            url: '/cart/',
+            parent : index2State,
+            templateUrl: 'cart/cart.view.html',
+            controller: 'CartController'
         }
         var logOutState = {
-            name: 'logOut'
-            , url: '/logout/'
-            , templateUrl: 'login/login2.view.html'
-            , controller: 'LogoutController'
+            name: 'logOut',
+            url: '/logout/',
+            templateUrl: 'login/login2.view.html',
+            controller: 'LogoutController'
         }
 
         $stateProvider.state(indexState);
