@@ -5,7 +5,7 @@ app.directive('materialLoad1', function() {
         scope: {options: '='},
         link: function(scope, element, attrs) {
             var breakCards = true;
-
+            //console.log('test');
             var searchVisible = 0;
             var transparent = true;
 

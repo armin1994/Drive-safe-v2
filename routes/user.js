@@ -13,7 +13,7 @@ router.get('/fb/:id', (req, res) => {
             res.json({status: true, user: data, token: token});
         }
         res.json({status: false});
-    })
+    });
 });
 router.post('/login', (req, res, next) => {
     User.findOne({user_name: req.body.user_name}).then((data) => {

@@ -1,16 +1,15 @@
 (function (angular) {
     'use strict';
-    function loginControllerFN($scope, $rootScope, User, $state, Session, Scenario, Reservation) {
+    function loginControllerFN($scope, $rootScope, User, $state, Session, Scenario, Reservation, Facebook) {
         $scope.user = {};
         $scope.getLoginStatus = function () {
-			/*
             Facebook.getLoginStatus(function (response) {
                 if (response.status === 'connected') {
                     fetch();
                 } else {
                     login();
                 }
-            });*/
+            });
         };
         var login = function () {
             // From now on you can use the Facebook service just as Facebook api says
@@ -21,7 +20,7 @@
         var fetch = function () {
             $scope.promise = [];
             $scope.promise[0] = Facebook.api('/me', {fields: 'first_name,last_name,picture'}, function (response) {
-                console.log(response);
+                if(!response.error){
                 $scope.promise[1] = User.fb({id: response.id}).$promise.then((data) => {
                     if (!data.status) {
                         var temp = new User();
@@ -58,6 +57,7 @@
                         });
                     }
                 });
+                }
                 //$scope.user = response;
             });
         };
@@ -84,6 +84,6 @@
         };
     }
 
-    loginControllerFN.$inject = ['$scope', '$rootScope', 'User', '$state', 'Session', 'Scenario', 'Reservation'];
+    loginControllerFN.$inject = ['$scope', '$rootScope', 'User', '$state', 'Session', 'Scenario', 'Reservation','Facebook'];
     angular.module('app').controller('LoginController', loginControllerFN);
 })(angular);
