@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <div class="card card-product ">
+            <div class="card card-product">
                 <div class="card-image" data-header-animation="false">
                     <a ui-href="scenario">
                         <img class="img" src="./assets/img/card-2.jpg">
@@ -32,11 +32,17 @@
                     </div>
                 </div>
                 <div class="card-footer">
-                    <div class="price text-warning">
+                    <div ng-show="scenario.difficulty==0" class="price text-success">
+                        <h4>Easy</h4>
+                    </div>
+                    <div ng-show="scenario.difficulty==1" class="price text-warning">
                         <h4>Medium</h4>
                     </div>
+                    <div ng-show="scenario.difficulty==2" class="price text-danger">
+                        <h4>Hard</h4>
+                    </div>
                     <div class="stats pull-right">
-                        <p class="category">Skill 1, Skill 2</p>
+                        <p class="category"><span ng-repeat="skill in scenario.skills">{{skill.name}}{{$last ? '' : ', '}}</span></p>
                     </div>
                 </div>
             </div>
