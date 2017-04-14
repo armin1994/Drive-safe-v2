@@ -165,7 +165,9 @@ app.directive('materialLoad1', function() {
                         $(".sidebar-wrapper .dropdown .dropdown-menu > li > a").click(function(event) {
                             event.stopPropagation();
                         });
-
+                        $(".sidebar-wrapper #cart").click(function(event) {
+                            event.stopPropagation();
+                        });
                         // simulate resize so all the charts/maps will be redrawn
                         window.dispatchEvent(new Event('resize'));
 
@@ -189,7 +191,6 @@ app.directive('materialLoad1', function() {
                                 setTimeout(function(){
                                     $toggle.removeClass('toggled');
                                 }, 400);
-
                                 mobile_menu_visible = 0;
                             } else {
                                 setTimeout(function(){

@@ -1,8 +1,11 @@
 (function (angular) {
     'user strict';
     
-    function configFN($stateProvider,$urlRouterProvider,$locationProvider,$httpProvider, jwtOptionsProvider,FacebookProvider) {
-        $locationProvider.html5Mode(true);
+    function configFN($stateProvider,$urlRouterProvider,$locationProvider,$httpProvider, jwtOptionsProvider,FacebookProvider,$provide) {
+        $provide.decorator('$sniffer', function($delegate) {
+            $delegate.history = false;
+            return $delegate;
+        });
         jwtOptionsProvider.config({
             tokenGetter: [function() {
                 return sessionStorage.token;
@@ -110,9 +113,10 @@
         $stateProvider.state(reservationScenarioState);
         $stateProvider.state(cartState);
         $urlRouterProvider.otherwise('/home/');
+        $locationProvider.html5Mode(true).hashPrefix('!');
         FacebookProvider.init('228029894268796');
     }
-    configFN.$inject = ['$stateProvider','$urlRouterProvider','$locationProvider','$httpProvider', 'jwtOptionsProvider','FacebookProvider'];
+    configFN.$inject = ['$stateProvider','$urlRouterProvider','$locationProvider','$httpProvider', 'jwtOptionsProvider','FacebookProvider','$provide'];
     angular.module('app',['ui.router','duScroll','ngResource','angularLoad','angular-jwt','yaru22.angular-timeago','ngMap','facebook','angularFileUpload','cgBusy'
     ]).config(configFN);
 }
