@@ -20,4 +20,9 @@ router.delete('/:id',(req,res)=>{
         res.json(data);
     });
 });
+router.put('/:id',(req,res)=>{
+    Skill.findByIdAndUpdate(req.params.id,req.body).then((data)=>{
+        res.json(data);
+    })
+});
 module.exports = router;
