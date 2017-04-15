@@ -21,7 +21,9 @@ router.delete('/:id',(req,res)=>{
     });
 });
 router.put('/:id',(req,res)=>{
-    Skill.findByIdAndUpdate(req.params.id,req.body).then((data)=>{
+    Skill.findByIdAndUpdate(req.params.id,req.body).exec((err,data)=>{
+        if(err)
+            res.json(err);
         res.json(data);
     })
 });
