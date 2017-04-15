@@ -6,7 +6,7 @@ var Skill = models.skill;
 
 router.post('/', (req, res, next)=> {
     var temp = new Skill(req.body);
-    temp.save((data)=>{
+    temp.save((err,data)=>{
         res.json(data);
     })
 });
