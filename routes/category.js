@@ -15,5 +15,16 @@ router.get('/', (req, res, next)=> {
         res.json(data);
     })
 });
-
+router.delete('/:id',(req,res)=>{
+    Category.findByIdAndRemove(req.params.id).then((data)=>{
+        res.json(data);
+    });
+});
+router.put('/:id',(req,res)=>{
+    Category.findByIdAndUpdate(req.params.id,req.body).exec((err,data)=>{
+        if(err)
+            res.json(err);
+        res.json(data);
+    })
+});
 module.exports = router;
