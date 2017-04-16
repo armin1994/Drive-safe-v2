@@ -77,7 +77,7 @@ router.delete('/:id', (req, res) => {
     })
 })
 router.get('/', (req, res, next) => {
-    Reservation.find().populate('scenarios.scenario').then((data) => {
+    Reservation.find().populate('user scenarios.scenario').then((data) => {
         res.json(data);
     })
 });
