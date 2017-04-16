@@ -25,5 +25,9 @@ router.get('/:id', (req, res, next)=> {
         res.json(data);
     });
 });
-
+router.delete('/:id',(req,res)=>{
+    Skill.findByIdAndRemove(req.params.id).then((data)=>{
+        res.json(data);
+    });
+});
 module.exports = router;
