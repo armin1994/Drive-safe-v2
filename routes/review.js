@@ -20,5 +20,17 @@ router.get('/:id', (req, res, next)=> {
         res.json(data);
     })
 });
+router.delete('/:id',(req,res)=>{
+    Review.findByIdAndRemove(req.params.id).then((data)=>{
+        res.json(data);
+    });
+});
+router.put('/:id',(req,res)=>{
+    Review.findByIdAndUpdate(req.params.id,req.body).exec((err,data)=>{
+        if(err)
+            res.json(err);
+        res.json(data);
+    })
+});
 
 module.exports = router;
