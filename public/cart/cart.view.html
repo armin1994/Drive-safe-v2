@@ -37,7 +37,7 @@
                                         </div>
                                         <div class="card-content">
                                             <h4 class="card-title">
-                                                <a ui-sref="reservationScenario">{{item.name}}</a>
+                                                <a ui-sref="reservationScenario">{{item.name | limitTo:15 }}{{item.name.length > 15 ? '...' : ''}}</a>
                                             </h4>
                                             <div class="card-description">
                                                 <button ng-click="remove(item._id)" class="btn btn-danger">Remove</button>

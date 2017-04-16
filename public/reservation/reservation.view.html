@@ -23,12 +23,15 @@
                                 <td class="text-center">{{$index+1}}</td>
                                 <td>{{reservation.date | date:('d/m/y')}}</td>
                                 <td>{{reservation.scenarios.length}}</td>
-                                <td class="text-right text-warning">{{reservation.status}}</td>
+                                <td class="text-right" ng-class="{'text-warning':!reservation.status,'text-success':reservation.status}">
+                                    <span ng-show="!reservation.status">Pending</span>
+                                    <span ng-show="reservation.status">Finished</span>
+                                </td>
                                 <td class="td-actions text-right">
                                     <a ui-sref="reservationDetails({'id':$index})" rel="tooltip" class="btn btn-info" data-placement="bottom" title="" data-original-title="Preview">
                                         <i class="material-icons">find_in_page</i>
                                     </a>
-                                    <button ng-click="remove(reservation._id)" type="button" rel="tooltip" class="btn btn-danger" data-placement="bottom" title="" data-original-title="Cancel">
+                                    <button ng-show="!reservation.status" ng-click="remove(reservation._id)" type="button" rel="tooltip" class="btn btn-danger" data-placement="bottom" title="" data-original-title="Cancel">
                                         <i class="material-icons">close</i>
                                     </button>
                                 </td>

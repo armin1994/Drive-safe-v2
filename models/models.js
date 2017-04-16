@@ -19,12 +19,12 @@ module.exports.user = mongoose.model('User', userSchema);
 var reservationSchema = new Schema({
     user: {type: Schema.ObjectId, ref: 'User'},
     date: {type: Date, default: new Date()},
-    status: {type: String, default: 'Pending'},
+    status: {type: Boolean, default: false},
     scenarios: [
         {
             scenario: {type: Schema.ObjectId, ref: 'Scenario'},
-            skills: [{skill: {type: Schema.ObjectId, ref: 'Skill'}, score: Number}],
-            score: Number
+            skills: [{skill: {type: Schema.ObjectId, ref: 'Skill'}, score:{ type: Number, default: 0}}],
+            status: {type: Number , default: 0}
         }]
 });
 module.exports.reservation = mongoose.model('Reservation', reservationSchema);

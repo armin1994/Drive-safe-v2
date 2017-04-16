@@ -16,16 +16,20 @@
                         <div ng-repeat="item in scenarioReservation.skills">
                         <h5>{{item.skill.name}}</h5>
                         <div class="progress progress-line-primary">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-                                <span class="sr-only">0% Complete</span>
+                            <div  class="progress-bar" role="progressbar" aria-valuenow="{{item.score}}" aria-valuemin="0" aria-valuemax="100" style="width: {{item.score}}%;">
+                                <span class="sr-only">{{item.score}}% Complete</span>
                             </div>
                         </div>
                         </div>
                     </div>
                 </div>
                 <div class="card-footer">
-                    <div class="price text-warning">
-                        <h4>Medium</h4>
+                    <div class="price" ng-class="{'text-success':scenarioReservation.scenario.difficulty==0,'text-warning':scenarioReservation.scenario.difficulty==1,'text-danger':scenarioReservation.scenario.difficulty==2}">
+                        <h4>
+                            <span ng-show="scenarioReservation.scenario.difficulty==0">Easy</span>
+                            <span ng-show="scenarioReservation.scenario.difficulty==1">Medium</span>
+                            <span ng-show="scenarioReservation.scenario.difficulty==2">Hard</span>
+                        </h4>
                     </div>
                     <div class="stats pull-right">
                         <p class="category"><span ng-repeat="skill in scenarioReservation.skills">{{skill.skill.name}}{{$last ? '' : ', '}}</span></p>
@@ -34,7 +38,7 @@
             </div>
         </div>
         <div class="col-md-12">
-            <button ng-click="remove()" class="btn btn-danger">
+            <button ng-show="scenarioReservation.status==0" ng-click="remove()" class="btn btn-danger">
                                         <span class="btn-label">
                                             <i class="material-icons">priority_high</i>
                                         </span>

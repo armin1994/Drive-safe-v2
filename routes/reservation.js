@@ -43,9 +43,11 @@ router.get('/', (req, res, next) => {
         res.json(data);
     })
 });
+
 router.get('/:user',(req,res)=>{
     Reservation.find({user:req.params.user}).populate('scenarios.scenario scenarios.skills.skill').then((data)=>{
         res.json(data);
     })
-})
+});
+
 module.exports = router;

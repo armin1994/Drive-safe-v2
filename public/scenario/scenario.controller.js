@@ -5,12 +5,16 @@
         $scope.reviews = [];
         $scope.newReview = {};
         $scope.newReview.rate = true;
-        Scenario.get({id:$state.params.id}).$promise.then((data)=>{
+        $scope.promise = [];
+        $scope.promise[0] = Scenario.get({id:$state.params.id}).$promise.then((data)=>{
             $scope.scenario = data;
-            Review.getReviews({id:data._id}).$promise.then((data)=>{
+            $scope.promise[2] = Review.getReviews({id:data._id}).$promise.then((data)=>{
                 $scope.reviews = data;
             });
-        })
+        });
+        $scope.promise[1] = Scenario.getRate({id:$state.params.id}).$promise.then((data)=>{
+            $scope.rate = data.rate;
+        });
         $scope.submitReview = ()=>{
             $scope.newReview.user = Session.get()._id;
             $scope.newReview.scenario = $scope.scenario._id;

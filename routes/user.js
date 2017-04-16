@@ -16,6 +16,7 @@ router.get('/fb/:id', (req, res) => {
     });
 });
 router.post('/login', (req, res, next) => {
+    console.log(req.body);
     User.findOne({user_name: req.body.user_name}).then((data) => {
         if (bcrypt.compareSync(req.body.password, data.password)) {
             var token = jwt.sign({user_name: data.user_name}, 'armin');

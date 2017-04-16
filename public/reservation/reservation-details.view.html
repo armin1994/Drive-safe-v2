@@ -12,14 +12,19 @@
                         </div>
                         <br><br>
                         <label class="label-control">Status</label>
-                        <h5 class="text-warning">Pending</h5>
+                        <h5 ng-class="{'text-warning':!reservation.status,'text-success':reservation.status}">
+                            <span ng-show="!reservation.status">Pending</span>
+                            <span ng-show="reservation.status">Finished</span>
+                        </h5>
                         <br><br>
-                        <div ng-repeat="skill in skills">
-                            <h5>{{skill.name}}</h5>
-                            <div class="progress progress-line-primary">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                                     aria-valuemax="100" style="width: 0%;">
-                                    <span class="sr-only">60% Complete</span>
+                        <div ng-repeat="(key,value) in skills | groupBy:'skill.name'">
+                            <div>
+                                <h5>{{key}}</h5>
+                                <div class="progress progress-line-primary">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="{{(value | map: 'score' | sum)/value.length}}" aria-valuemin="0"
+                                         aria-valuemax="100" style="width: {{(value | map: 'score' | sum)/value.length}}%;">
+                                        <span class="sr-only">{{(value | map: 'score' | sum)/value.length}}% Complete</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -43,12 +48,18 @@
                                         <a ui-sref="reservationScenario({'idReservation':idReservation,'idScenario':$index})">{{item.scenario.name}}</a>
                                     </h4>
                                     <div class="card-description">
-                                        {{item.scenario.description}}...
+                                        {{item.scenario.description | limitTo:50}}{{item.scenario.description.length >
+                                        50 ? '...' : ''}}
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <div class="price text-warning">
-                                        <h4>Pending</h4>
+                                    <div class="price"
+                                         ng-class="{'text-warning':item.status==0,'text-success':item.status==1,'text-danger':item.status==2}">
+                                        <h4>
+                                            <span ng-show="item.status==0">Pending</span>
+                                            <span ng-show="item.status==1">Success</span>
+                                            <span ng-show="item.status==2">Fail</span>
+                                        </h4>
                                     </div>
                                     <div class="stats pull-right">
                                         <p class="category"><span ng-repeat="skill in item.skills">{{skill.skill.name}}{{$last ? '' : ', '}}</span>
