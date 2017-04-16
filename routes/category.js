@@ -6,8 +6,10 @@ var Category = models.category;
 
 router.post('/', (req, res, next)=> {
     var temp = new Category(req.body);
-    temp.save((data)=>{
-        res.json({});
+    temp.save((err,data)=>{
+        if(err)
+            res.json(err);
+        res.json(data);
     })
 });
 router.get('/', (req, res, next)=> {

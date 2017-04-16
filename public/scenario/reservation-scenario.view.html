@@ -9,12 +9,13 @@
                 </div>
                 <div class="card-content">
                     <h4 class="card-title">
-                        <a ui-sref="scenario">{{scenarioReservation.name}}</a>
+                        <a ui-sref="scenario">{{scenarioReservation.scenario.name}}</a>
+                        <div ng-class="{'text-success':rate>80,'text-warning':rate<=80&&rate>=40,'text-danger':rate<40}">{{rate}}% Success Rate</div>
                     </h4>
                     <div class="card-description">
                         {{scenarioReservation.description}}
                         <div ng-repeat="item in scenarioReservation.skills">
-                        <h5>{{item.skill.name}}</h5>
+                        <h5 ng-class="{'text-success':item.score>=50,'text-warning':item.score<50&&item.score>=20,'text-danger':item.score<20}">{{item.skill.name}}({{item.score}}%)</h5>
                         <div class="progress progress-line-primary">
                             <div  class="progress-bar" role="progressbar" aria-valuenow="{{item.score}}" aria-valuemin="0" aria-valuemax="100" style="width: {{item.score}}%;">
                                 <span class="sr-only">{{item.score}}% Complete</span>

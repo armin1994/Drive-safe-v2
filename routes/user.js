@@ -16,7 +16,6 @@ router.get('/fb/:id', (req, res) => {
     });
 });
 router.post('/login', (req, res, next) => {
-    console.log(req.body);
     User.findOne({user_name: req.body.user_name}).then((data) => {
         if (bcrypt.compareSync(req.body.password, data.password)) {
             var token = jwt.sign({user_name: data.user_name}, 'armin');
@@ -29,7 +28,6 @@ router.post('/login', (req, res, next) => {
     });
 });
 router.put('/:id', (req, res) => {
-    console.log('back end check 1');
     if (req.body.password)
         req.body.password = bcrypt.hashSync(req.body.password);
     User.findByIdAndUpdate(req.params.id, req.body).then((data) => {

@@ -6,7 +6,9 @@ var Review = models.review;
 
 router.post('/', (req, res, next)=> {
     var temp = new Review(req.body);
-    temp.save((data)=>{
+    temp.save((err,data)=>{
+        if(err)
+            res.json(err);
         res.json(data);
     })
 });

@@ -19,7 +19,7 @@
                         <br><br>
                         <div ng-repeat="(key,value) in skills | groupBy:'skill.name'">
                             <div>
-                                <h5>{{key}}</h5>
+                                <h5 ng-class="{'text-success':((value | map: 'score' | sum)/value.length)>=50,'text-warning':((value | map: 'score' | sum)/value.length)>=20&&((value | map: 'score' | sum)/value.length)<50,'text-danger':((value | map: 'score' | sum)/value.length)<20}">{{key}}({{(value | map: 'score' | sum)/value.length}}%)</h5>
                                 <div class="progress progress-line-primary">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="{{(value | map: 'score' | sum)/value.length}}" aria-valuemin="0"
                                          aria-valuemax="100" style="width: {{(value | map: 'score' | sum)/value.length}}%;">

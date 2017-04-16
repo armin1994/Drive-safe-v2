@@ -4,13 +4,13 @@
             <div class="card card-product" cg-busy="promise">
                 <div class="card-image" data-header-animation="false">
                     <a ui-href="scenario">
-                        <img class="img" src="./assets/img/card-2.jpg">
+                        <img class="img" ng-src="./assets/img/uploads/{{ scenario.image }}" err-src="./assets/img/card-2.jpg">
                     </a>
                 </div>
                 <div class="card-content">
                     <h4 class="card-title">
                         <a ui-sref="scenario">{{scenario.name}}</a>
-                        <div class="pull-right" ng-class="{'text-success':rate>80,'text-warning':rate<=80&&rate>=40,'text-danger':rate<40}">{{rate}}% Success Rate</div>
+                        <div ng-class="{'text-success':rate>80,'text-warning':rate<=80&&rate>=40,'text-danger':rate<40}">{{rate}}% Success Rate</div>
                     </h4>
                     <div class="card-description">
                         {{scenario.description}}
@@ -20,9 +20,6 @@
                                             <i class="material-icons">check</i>
                                         </span>
                             Add to cart
-                        </button>
-                        <button class="btn btn-social btn-fill btn-facebook">
-                            <i class="fa fa-facebook-square"></i> Share &middot; 2.2k
                         </button>
                         <hr>
                         <h3 class="text-rose">Skills</h3>
