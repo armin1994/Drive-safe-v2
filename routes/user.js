@@ -51,6 +51,11 @@ router.get('/', (req, res, next) => {
         res.json(data);
     })
 });
+router.delete('/:id',(req,res)=>{
+    User.findByIdAndRemove(req.params.id).then((data)=>{
+        res.json(data);
+    });
+});
 
 
 module.exports = router;
