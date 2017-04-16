@@ -13,12 +13,12 @@ router.post('/', (req, res, next)=> {
     })
 });
 router.get('/', (req, res, next)=> {
-    Review.find().populate('user').then((data)=>{
+    Review.find().populate('user scenario').then((data)=>{
         res.json(data);
     })
 });
 router.get('/:id', (req, res, next)=> {
-    Review.find({scenario:req.params.id}).populate('user').then((data)=>{
+    Review.find({scenario:req.params.id}).populate('user scenario').then((data)=>{
         res.json(data);
     })
 });
