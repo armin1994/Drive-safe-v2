@@ -52,7 +52,7 @@ router.get('/:id', (req, res, next) => {
     });
 });
 router.delete('/:id',(req,res)=>{
-    Skill.findByIdAndRemove(req.params.id).then((data)=>{
+    Scenario.findByIdAndRemove(req.params.id).then((data)=>{
         res.json(data);
     });
 });
