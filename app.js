@@ -26,6 +26,9 @@ app.post('/add',(req,res)=>{
     res.json({status:true});
 })
 app.use('/api', expressJwt({secret: 'armin'}).unless({path: ['/api/user/login', '/api/user/register',/\/api\/user\/fb/i]}), api);
+app.get('/admin', function (req, res) {
+    res.sendFile(path.join(__dirname, 'public/admin/index.html'));
+});
 app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, 'public/index.html'));
 });

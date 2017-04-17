@@ -1,0 +1,195 @@
+
+            <div class="bg-dark dk" id="wrap">
+                <div id="top">
+                    <!-- .navbar -->
+                    <nav class="navbar navbar-inverse navbar-static-top">
+                        <div class="container-fluid">
+                    
+                    
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <header class="navbar-header">
+                    
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+                    
+                            </header>
+                    
+                    
+                    
+                            <div class="topnav">
+                                
+                                <div class="btn-group">
+                                    <a href="#login" data-toggle="tooltip" data-original-title="Logout" data-placement="bottom"
+                                       class="btn btn-metis-1 btn-sm">
+                                        <i class="fa fa-power-off"></i>
+                                    </a>
+                                </div>
+                                
+                    
+                            </div>
+                    
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                    <!-- /.navbar -->
+                        <header class="head">
+                                <div class="search-bar">
+                                    <form class="main-search" action="">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Live Search ...">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary btn-sm text-muted" type="button">
+                                                    <i class="fa fa-search"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                    <!-- /.main-search -->                                </div>
+                                <!-- /.search-bar -->
+                            <div class="main-bar">
+                                <h3>
+              <i class="fa fa-dashboard"></i>&nbsp;
+            Dashboard
+          </h3>
+                            </div>
+                            <!-- /.main-bar -->
+                        </header>
+                        <!-- /.head -->
+                </div>
+                <!-- /#top -->
+                    <div id="left">
+                        <div class="media user-media bg-dark dker">
+                            <div class="user-media-toggleHover">
+                                <span class="fa fa-user"></span>
+                            </div>
+                            <div class="user-wrapper bg-dark">
+                                <a class="user-link" href="">
+                                    <img class="media-object img-thumbnail user-img" width="64px" height="64px" alt="User Picture" src="assets/img/profile.jpg">
+                                    
+                                </a>
+                        
+                                <div class="media-body">
+                                    <h5 class="media-heading">BrokenSwag</h5>
+                                    <ul class="list-unstyled user-info">
+                                        <li><a href="">Administrator</a></li>
+                                        <li>Last Access : <br>
+                                            <small><i class="fa fa-calendar"></i>&nbsp;16 Mar 16:32</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #menu -->
+							<ul id="menu" class="bg-blue dker">
+                <li class="nav-header">Menu</li>
+                <li class="nav-divider"></li>
+                <li class="active">
+                    <a href="#dashboard"> <i class="fa fa-dashboard"></i><span class="link-title">&nbsp;Dashboard</span></a>
+                </li>
+                <li class="">
+                    <a href="#users"> <i class="fa fa-users"></i> <span class="link-title">Manage Users</span></a>
+                </li>
+				<li class="">
+                    <a href="#skills"> <i class="fa fa-book"></i> <span class="link-title">Manage Skills</span></a>
+                </li>
+				<li class="">
+                    <a href="#categories"> <i class="fa fa-bars"></i> <span class="link-title">Manage Categories</span></a>
+                </li>
+				<li class="">
+                    <a href="#reviews"> <i class="fa fa-commenting"></i> <span class="link-title">Manage Reviews</span></a>
+                </li>
+				<li class="">
+                    <a href="#reservations"> <i class="fa fa-calendar"></i> <span class="link-title">Manage Reservations</span></a>
+                </li>
+				<li class="">
+                    <a href="#scenarios"> <i class="fa fa-car"></i> <span class="link-title">Manage Scenarios</span></a>
+                </li>
+            </ul>
+                                  
+                        <!-- /#menu -->
+                    </div>
+                    <!-- /#left -->
+                <div id="content">
+                    <div class="outer">
+                        <div class="inner bg-light lter">
+                            
+<div class="text-center">
+
+    <a class="quick-btn" href="">
+	<i class="fa fa-users fa-2x"></i>
+	<span>Users</span>
+	<span class="label label-default">{{users.length}}</span>
+    </a>
+    <a class="quick-btn" href="">
+	<i class="fa fa-book fa-2x"></i>
+	<span>Skills</span>
+	<span class="label label-danger">{{skills.length}}</span>
+    </a>
+    <a class="quick-btn" href="">
+	<i class="fa fa-bars fa-2x"></i>
+	<span>Categories</span>
+	<span class="label label-success">{{categories.length}}</span>
+    </a>
+    <a class="quick-btn" href="">
+	<i class="fa fa-commenting fa-2x"></i>
+	<span>Reviews</span>
+	<span class="label label-warning">{{reviews.length}}</span>
+    </a>
+    <a class="quick-btn" href="">
+	<i class="fa fa-calendar fa-2x"></i>
+	<span>Reservations</span>
+	<span class="label btn-metis-2">{{reservations.length}}</span>
+    </a>
+    <a class="quick-btn" href="">
+	<i class="fa fa-car fa-2x"></i>
+	<span>Scenarios</span>
+	<span class="label btn-metis-4">{{scenarios.length}}</span>
+    </a>
+
+</div>
+
+                        </div>
+                        <!-- /.inner -->
+                    </div>
+                    <!-- /.outer -->
+                </div>
+                <!-- /#content -->
+
+                    <!-- /#right -->
+            </div>
+            <!-- /#wrap -->
+            <footer class="Footer bg-dark dker">
+                <p>2017 &copy; Metis Bootstrap Admin Template v2.4.2</p>
+            </footer>
+            <!-- /#footer -->
+            <!-- #helpModal -->
+            <div id="helpModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+<script src="assets/js/style-switcher.js"></script>

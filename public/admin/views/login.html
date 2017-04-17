@@ -1,0 +1,24 @@
+
+      <div class="form-signin">
+			<div class="text-center">
+				<img src="assets/img/logo.png" alt="Metis Logo">
+			</div>
+			<hr>
+			<div class="tab-content">
+				<div id="login" class="tab-pane active animated fadeIn">
+					<form ng-submit="login()">
+						<p class="text-muted text-center">
+							Enter your username and password
+						</p>
+						<input ng-model="user.user_name" type="text" placeholder="Username" class="form-control top">
+						<input ng-model="user.password" type="password" placeholder="Password" class="form-control bottom">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> Remember Me
+							</label>
+						</div>
+						<button  class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+					</form>
+				</div>
+			</div>
+	   </div>
