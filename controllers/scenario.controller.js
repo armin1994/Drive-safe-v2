@@ -5,7 +5,7 @@ var Mongoose = require('mongoose');
 var ObjectId = Mongoose.Types.ObjectId;
 
 module.exports.getAll = (req, res)=> {
-    Scenario.find().then((data)=>{
+    Scenario.find().populate('skills category').then((data)=>{
         res.json(data);
     })
 }
