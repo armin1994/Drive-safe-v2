@@ -48,6 +48,11 @@ module.exports.getByUser = (req, res) => {
         res.json(data);
     })
 }
+module.exports.getLast = (req,res)=>{
+    Reservation.findOne({user: req.params.user}).populate('scenarios.scenario scenarios.skills.skill').then((data) => {
+        res.json(data);
+    });
+}
 
 module.exports.updateScore = (req, res) => {
     Reservation.findById(req.params.id).exec((err,data)=>{

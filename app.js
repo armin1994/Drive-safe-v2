@@ -22,9 +22,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(fileUpload());
-app.post('/add',(req,res)=>{
-    res.json({status:true});
-})
 app.use('/api', expressJwt({secret: 'armin'}).unless({path: ['/api/user/login', '/api/user/register',/\/api\/user\/fb/i]}), api);
 app.get('/admin', function (req, res) {
     res.sendFile(path.join(__dirname, 'public/admin/index.html'));
