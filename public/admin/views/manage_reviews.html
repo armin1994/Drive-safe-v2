@@ -1,4 +1,4 @@
-    <div class="bg-dark dk" id="wrap">
+<div class="bg-dark dk" id="wrap">
         <div id="top">
             <!-- .navbar -->
             <nav class="navbar navbar-inverse navbar-static-top">
@@ -94,6 +94,11 @@
                                 <header>
                                     <div class="icons"><i class="fa fa-commenting"></i></div>
                                     <h5>Manage Reviews</h5>
+                                    <div class="toolbar">
+										<div class="btn-group">
+											<a data-toggle="modal" data-original-title="Help" data-placement="bottom" target="_blank" href="#addModal" class="btn btn-success btn-md"><i class="fa fa-plus"></i> Add</a>
+										</div>
+									</div>
 								</header>
                                 <div id="collapse4" class="body">
                                     <table id="dataTable" class="table table-bordered table-condensed table-hover table-striped">
@@ -110,12 +115,17 @@
                                         <tbody>
                                             <tr ng-repeat="reviewa in reviews">
                                                 <td>{{reviewa.description}}</td>
+                                                <!--<td>{{reviewa.user(user_name)}}</td>-->
                                                 <td>{{reviewa.user.user_name}}</td>
+                                                <script>
+                                                    
+                                                </script>
 												<td ng-if="reviewa.rate == true">Like</td>
                                                 <td ng-if="reviewa.rate == false">Dislike</td>
                                                 <td>{{reviewa.date | timeAgo}}</td>
 												<td>{{reviewa.scenario.name}}</td>
 												<td>
+                                                    <a ng-click="fillmodal(reviewa)" data-toggle="modal" data-original-title="Edit" data-placement="bottom" target="_blank" href="#editModal" class="btn btn-info btn-md"><i class="fa fa-pencil"></i> Edit</a>
                                                     <a ng-click="remove(reviewa._id)" class="btn btn-danger btn-grad" data-original-title="" title="">Delete</a>
 												</td>
                                             </tr>
@@ -141,29 +151,116 @@
     <!-- /#footer -->
 	<div id="addModal" class="modal fade">
                 <div class="modal-dialog">
+                    <form class="form-horizontal" ng-submit="add()">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Add New Category</h4>
+                            <h4 class="modal-title">Add New Review</h4>
                         </div>
                         <div class="modal-body">
                             <form class="form-horizontal">
 								<div class="form-group">
-									<label for="text1" class="control-label col-lg-4">Category Name</label>
+									<label for="text1" class="control-label col-lg-4">Review Description</label>
 									<div class="col-lg-8">
-										<input type="text" class="form-control">
+										<input ng-model="addreview.description" type="text" class="form-control">
 									</div>
 								</div>
+								<div class="form-group">
+									<label for="text1" class="control-label col-lg-4">User</label>
+									<div class="col-lg-8">
+										<select ng-model="addreview.user" class="form-control">
+                                            <option ng-repeat="user in users" value="{{user._id}}">{{user.user_name}}</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="text1" class="control-label col-lg-4">Rate</label>
+									<div class="col-lg-8">
+										<select ng-model="addreview.rate" class="form-control">
+											<option value="true">Like</option>
+											<option value="false">Dislike</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="text1" class="control-label col-lg-4">Scenario</label>
+									<div class="col-lg-8">
+										<select ng-model="addreview.scenario" class="form-control">
+                                            <option ng-repeat="scenario in scenarios" value="{{scenario._id}}">{{scenario.name}}</option>
+										</select>
+									</div>
+								</div>
+								
 							</form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							<button type="button" class="btn btn-success">Add</button>
+							<button type="submit" class="btn btn-success">Add</button>
                         </div>
                     </div>
                     <!-- /.modal-content -->
+                    </form>
                 </div>
                 <!-- /.modal-dialog -->
+    </div>
+    <div id="editModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form class="form-horizontal">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Edit Review</h4>
+            </div>
+            <div class="modal-body">
+
+                        <form class="form-horizontal">
+								<div class="form-group">
+									<label for="text1" class="control-label col-lg-4">Review Description</label>
+									<div class="col-lg-8">
+										<input ng-model="editreview.description" type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="text1" class="control-label col-lg-4">User</label>
+									<div class="col-lg-8">
+										<select ng-model="editreview.user" class="form-control">
+                                            <option ng-repeat="user in users" value="{{user._id}}">{{user.user_name}}</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="text1" class="control-label col-lg-4">Rate</label>
+									<div class="col-lg-8">
+									    
+										<select ng-value="{{editreview.rate}}" ng-model="editreview.rate" class="form-control">
+											<option ng-selected="editreview.rate==true" value="true">Like</option>
+											<option ng-selected="editreview.rate==false" value="false">Dislike</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="text1" class="control-label col-lg-4">Scenario</label>
+									<div class="col-lg-8">
+										<select ng-model="editreview.scenario" class="form-control">
+                                            <option ng-repeat="scenario in scenarios" value="{{scenario._id}}">{{scenario.name}}</option>
+										</select>
+									</div>
+								</div>
+								
+							</form>
+
+                </div>
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-info"  ng-click="edit()">Edit</button>
+                </div>
+            </form>
+            </div>
+
+            <!-- /.modal-content -->
+
+        </div>
+        <!-- /.modal-dialog -->
     </div>
 			
     <script src="assets/js/style-switcher.js"></script>
