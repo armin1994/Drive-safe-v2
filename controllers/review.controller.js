@@ -2,7 +2,7 @@ var models = require('../models/models');
 var Review = models.review;
 
 module.exports.getAll = (req, res)=> {
-    Review.find().then((data)=>{
+    Review.find().populate('user scenario').then((data)=>{
         res.json(data);
     })
 }
