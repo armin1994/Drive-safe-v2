@@ -44,11 +44,15 @@
                                             </div>
                                         </div>
                                         <div class="card-footer">
-                                            <div class="price text-warning">
-                                                <h4>Medium</h4>
+                                            <div ng-class="{'text-success':item.difficulty == 0,'text-warning':item.difficulty == 1,'text-danger':item.difficulty == 2}">
+                                                <h4 ng-switch="item.difficulty">
+                                                    <span ng-switch-when="0">Easy</span>
+                                                    <span ng-switch-when="1">Medium</span>
+                                                    <span ng-switch-when="2">Hard</span>
+                                                </h4>
                                             </div>
                                             <div class="stats pull-right">
-                                                <p class="category"><span ng-repeat="skill in item.skills">{{skill.name}}{{$last ? '' : ', '}}</span></p>
+                                                <!-- <p class="category"><span ng-repeat="skill in item.skills">{{skill.name}}{{$last ? '' : ', '}}</span></p> -->
                                             </div>
                                         </div>
                                     </div>
