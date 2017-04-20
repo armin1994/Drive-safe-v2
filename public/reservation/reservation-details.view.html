@@ -40,7 +40,7 @@
                             <div class="card card-product">
                                 <div class="card-image" data-header-animation="false">
                                     <a ui-sref="reservationScenario({'idReservation':idReservation,'idScenario':$index})">
-                                        <img class="img" src="./assets/img/card-2.jpg">
+                                        <img class="img" ng-src="./assets/img/{{ item.scenario.image }}">
                                     </a>
                                 </div>
                                 <div class="card-content">
