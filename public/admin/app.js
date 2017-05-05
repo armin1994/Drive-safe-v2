@@ -86,5 +86,5 @@
 
     }
     configFN.$inject = ['$stateProvider','$urlRouterProvider','$locationProvider','jwtOptionsProvider','$httpProvider'];
-    angular.module('app', ['ui.router','ngResource','angular-jwt','yaru22.angular-timeago']).config(configFN);
+    angular.module('app', ['ui.router','ngResource','angular-jwt','yaru22.angular-timeago','angularFileUpload']).config(configFN);
 })(angular);

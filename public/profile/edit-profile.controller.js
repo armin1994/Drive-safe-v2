@@ -25,7 +25,7 @@
             }
             else
                 edit();
-        }
+            }
         $scope.resetImage = function(){
             $scope.uploader.clearQueue();
         };

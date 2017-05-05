@@ -1,6 +1,23 @@
 (function (angular) {
     'use strict';
-    function ControllerFN($scope,Skill,Category,Scenario,Session,$state) {
+    function ControllerFN($scope,Skill,Category,Scenario,Session,$state,FileUploader) {
+
+        $scope.uploader = new FileUploader({
+            url: '../api/upload',
+            onSuccessItem: function (item, response, status, headers) {
+                $scope.addscenario.image = response.name;
+                console.log(response.name);
+                add();
+            },
+            onErrorItem : function (item, response, status, headers) {
+                var message = "Error unsupported file try again"
+                demo.showNotification('top','center',message,4,0);
+            },
+            headers: {
+                Authorization: 'Bearer ' + sessionStorage.token
+            }
+        });
+
         $scope.addscenario = {};
         $scope.aditscenario = {};
 
@@ -30,17 +47,27 @@
             });
         }
 
-		$scope.add = function(){
-            var temp = new Scenario($scope.addscenario);
-            temp.$save().then((data)=>{
-                data.category = $scope.categories[($scope.categories.map(x=>x._id).indexOf(data.category))];
-                $scope.scenarios.push(data);
+		var add = function(){
 
-                $('#addModal').modal('toggle');
-            })
+                var temp = new Scenario($scope.addscenario);
+                temp.$save().then((data)=>{
+                    data.category = $scope.categories[($scope.categories.map(x=>x._id).indexOf(data.category))];
+                    $scope.scenarios.push(data);
+
+                    $('#addModal').modal('toggle');
+                })
+
+
 		}
+        $scope.submit = () => {
+            if ($scope.uploader.queue.length>0){
+                $scope.uploader.queue[$scope.uploader.queue.length-1].upload();
+            }
+            else
+                add();
+        }
 
     }
-    ControllerFN.$inject = ['$scope','Skill','Category','Scenario','Session','$state'];
+    ControllerFN.$inject = ['$scope','Skill','Category','Scenario','Session','$state','FileUploader'];
     angular.module('app').controller('ScenariosController', ControllerFN);
 })(angular);
